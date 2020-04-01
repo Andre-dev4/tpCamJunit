@@ -12,11 +12,11 @@ public class test {
 	@Test
 	//renvoie une erreur vide
 	public final void testErreurVide() {
-		assertEquals("Vous n'êtes pas connu de nos services", whoiam.whoAreYou(""));
+		assertEquals("Vous n'êtes pas connu de nos services !", whoiam.whoAreYou(""));
 	}
 	@Test
 	//renvoie une erreur autre nom
 	public final void testErreurNom() {
-		assertEquals("Vous n'êtes pas connu de nos services", whoiam.whoAreYou("toto"));
+		assertEquals("Vous n'êtes pas connu de nos services !", whoiam.whoAreYou("toto"));
 	}
 }
