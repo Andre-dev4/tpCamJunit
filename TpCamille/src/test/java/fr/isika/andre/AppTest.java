@@ -13,6 +13,7 @@ public class AppTest {
 	//renvoie une erreur vide
 	public final void testErreurVide() {
 		assertEquals("Vous etes pas connu de nos services !", whoiam.whoAreYou(""));
+		
 	}
 	@Test
 	//renvoie une erreur autre nom
