@@ -6,17 +6,17 @@ public class AppTest {
 	@Test
 	//renvoie Bonjour je suis Camille
 	public final void testCamarche() {
-		assertEquals("je m'appelle Camille", whoiam.whoAreYou("Camille"));
+		assertEquals("je suis Camille", whoiam.whoAreYou("Camille"));
 		
 	}
 	@Test
 	//renvoie une erreur vide
 	public final void testErreurVide() {
-		assertEquals("Vous n'êtes pas connu de nos services !", whoiam.whoAreYou(""));
+		assertEquals("Vous etes pas connu de nos services !", whoiam.whoAreYou(""));
 	}
 	@Test
 	//renvoie une erreur autre nom
 	public final void testErreurNom() {
-		assertEquals("Vous n'êtes pas connu de nos services !", whoiam.whoAreYou("toto"));
+		assertEquals("Vous etes pas connu de nos services !", whoiam.whoAreYou("toto"));
 	}
 }
