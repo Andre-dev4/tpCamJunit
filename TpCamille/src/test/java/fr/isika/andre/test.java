@@ -17,6 +17,6 @@ public class test {
 	@Test
 	//renvoie une erreur autre nom
 	public final void testErreurNom() {
-		assertEquals("Vous n'êtes pas connu de nos services !", whoiam.whoAreYou("toto"));
+		assertEquals("Vous n'êtes pas connu de nos services ", whoiam.whoAreYou("toto"));
 	}
 }
